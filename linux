@@ -44,3 +44,7 @@ e deste jeito , serao listados todos os arquivos menos o 1 e o 4 com o nome sele
         ls (nome do arquivo)[^3-5]*
 
 e agora todos os arquivos do 3 ate o 5 nao serao listados ai , por enquanto e isso , e estes seriam os comandos basicos do linux
+
+teste
+teste
+teste

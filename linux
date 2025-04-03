@@ -1,1 +1,46 @@
-testando pela ultima vez para ficar prontinho 
+comandos iniciais do linux , 
+
+ls 
+
+usado para ler alguma coisa , tendo varias vertentes como se voce digitar o inicio de um arquivo e colocar um * todos os arquivos que começam tambem com aquela letra 
+pode ser usado tambem para ler os arquivos de um arquivo tambem , dentre outras utilidades muito boas 
+
+cd (nome do arquivo)(pode conter / caso o arquivo for da raiz)
+
+outro comando e este dai , utilizado para abrir arquivos por exemplo e tambem pode ser usado para ativar o modo adiministrador ou voltar para o modo usuario somente fazendo o seguinte
+
+cd /    
+
+isso para se tornar um administrador
+
+cd ~
+
+isso para voltar a ser um usuario , outra funçao seria a do touch , por exemplo , ao usar este comando criamos um arquivo podendo ser assim
+
+    touch (nome do novo arquivo a ser criado)(.txt caso for um arquivo de texto)
+
+ caso eu queria procurar arquivos em sequencia numerados e com o mesmo nome nos podemos fazer o seguinte
+
+        ls (nome do arquivo)[numero que voce quer procurar]*
+
+    um exemplo para isso seria 
+
+        ls arquivo[1-5]*
+
+e neste caso ele abriria os arquivos com nome arquivo de 1 ate o 5 para voce escolher , ai e so dar um cd e abrilos naturalmente agora para abrir apenas arquivos com numeros selecionados devemos fazer o seguinte
+        
+        ls (nome do arquivo)[1,3,5,6]*
+    
+deste jeito ele abrira o arquivo com os numeros que voce escolheu , para ter certeza de onde voce esta localizado agora , basta usar o comando
+
+        pwd
+
+e agora voce sabe onde voce está , agora voltando para o ls , supondo que eu quero ver todos os arquivos menos os arquivos selecionados 
+
+        ls (nome do arquivo)[^1,4]*
+
+e deste jeito , serao listados todos os arquivos menos o 1 e o 4 com o nome selecionado , e para fazer isso porem como uma fileira onde temos 5 arquivos mas nao quero nem do 3 ate o 5 podemos fazer da seguinte maneira
+
+        ls (nome do arquivo)[^3-5]*
+
+e agora todos os arquivos do 3 ate o 5 nao serao listados ai , por enquanto e isso , e estes seriam os comandos basicos do linux
